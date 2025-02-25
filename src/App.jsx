@@ -1,12 +1,13 @@
 import './App.css';
-import ReactHook2 from './ex030/R031_ReactHook2';
+import DropdownFunction from './ex030/R037_DropdownFunction';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return(
     <div>
       <h1> React Study </h1>
       <p>HTML 화면</p>
-      <ReactHook2/>
+      <DropdownFunction/>
     </div>
   )
 }
