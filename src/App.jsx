@@ -1,15 +1,13 @@
-import './App.css';
-import DropdownFunction from './ex030/R037_DropdownFunction';
+//import './App.css';
+import ReactstrapForm from './ex040/R044_ReactstrapForm';
 import 'bootstrap/dist/css/bootstrap.css'
-
 function App() {
   return(
     <div>
       <h1> React Study </h1>
       <p>HTML 화면</p>
-      <DropdownFunction/>
+      <ReactstrapForm/>
     </div>
   )
 }
-
 export default App;
