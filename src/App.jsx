@@ -1,13 +1,15 @@
-//import './App.css';
-import ReactstrapForm from './ex040/R044_ReactstrapForm';
+import './App.css';
+import Sweetalert2Confirm from './ex050/R058_Sweetalert2Confirm';
 import 'bootstrap/dist/css/bootstrap.css'
+
 function App() {
   return(
     <div>
       <h1> React Study </h1>
       <p>HTML 화면</p>
-      <ReactstrapForm/>
+      <Sweetalert2Confirm/>
     </div>
   )
 }
+
 export default App;
