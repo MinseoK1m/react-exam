@@ -1,15 +1,13 @@
 import './App.css';
-import Sweetalert2Confirm from './ex050/R058_Sweetalert2Confirm';
+import MyCounter from './ex070/reduxCounter/MyCounter';
 import 'bootstrap/dist/css/bootstrap.css'
 
-function App() {
+function App(props) {
   return(
     <div>
-      <h1> React Study </h1>
-      <p>HTML 화면</p>
-      <Sweetalert2Confirm/>
+      <MyCounter store={props.store}/>
     </div>
   )
 }
 
-export default App;
+export default App;                                
